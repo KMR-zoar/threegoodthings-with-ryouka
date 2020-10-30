@@ -1,16 +1,19 @@
 <template>
   <div id="wrapper">
     <calendar id="cal" :date="date" @change-date="dateUpdate"></calendar>
+    <input-boxes :date="date" @set-things="jsonUpdate"></input-boxes>
   </div>
 </template>
 
 <script>
 import Calendar from '@/components/LandingPage/Calendar'
+  import InputBoxes from '@/components/LandingPage/TextBoxes'
 
 export default {
   name: 'landing-page',
   components: {
-    Calendar
+    Calendar,
+    InputBoxes
   },
   data() {
     return {

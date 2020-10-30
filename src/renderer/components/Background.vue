@@ -1,12 +1,25 @@
 <template>
   <div id="attribute">
-    <a href="https://www.884ph.com/guidelines.html">Image by ©ハヤシ薬局</a>
+    <div @click="urlopen('https://www.884ph.com/guidelines.html')">
+      Image by ©ハヤシ薬局
+    </div>
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    urlopen: function(url) {
+      const { shell } = require('electron')
+      shell.openExternal(url)
+    }
+  }
+}
+</script>
+
 <style>
 #app {
-  background-image: url("../assets/ryouka2020_02.png");
+  background-image: url('../assets/ryouka2020_02.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: -25px;
@@ -18,14 +31,15 @@
   bottom: 1em;
 }
 
-#attribute a {
+#attribute div {
   color: black;
   text-decoration: none;
   font-size: 80%;
 }
 
-#attribute a:hover {
+#attribute div:hover {
   color: blue;
   text-decoration: underline;
+  cursor: pointer;
 }
 </style>

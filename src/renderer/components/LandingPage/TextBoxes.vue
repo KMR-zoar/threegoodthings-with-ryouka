@@ -87,7 +87,7 @@ export default {
 
 #submitbutton {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .el-tag {

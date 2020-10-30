@@ -1,6 +1,6 @@
 # くすり屋の良佳さんとThree Good Things
 
-1日にできたよい事をくすり屋の良佳さんと一緒に記録するためのアプリです｡
+1日にできた事をくすり屋の良佳さんと一緒に記録するためのアプリです｡
 Vue と Electron で[マスコットアプリ文化祭2020](https://mascot-apps-contest.azurewebsites.net/2020/About)に向けて作成しました｡
 
 インストーラーはありません｡Zipファイルを任意のフォルダに展開して`README.txt`をご覧の上､`threegoodthings-with-ryouka.exe`を実行してください｡

@@ -54,6 +54,13 @@ export default {
       storage.get('things.json', (err, data) => {
         if (err) {
           console.error(err)
+          if (this.thing.length) {
+            const things = {}
+            things[day] = this.thing
+            storage.set('things.json', things, err => {
+              if (err) throw err
+            })
+          }
         } else {
           data[day] = this.thing
           if (this.thing.length) {

@@ -1,3 +1,5 @@
+src/renderer/assets/*.png
+
 .DS_Store
 dist/electron/*
 dist/web/*

@@ -1,4 +1,5 @@
 src/renderer/assets/*.png
+backgroundimage.json
 
 .DS_Store
 dist/electron/*

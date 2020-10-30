@@ -54,6 +54,8 @@
     }
   },
   "dependencies": {
+    "electron-storage": "^1.0.7",
+    "v-calendar": "^2.0.1",
     "vue": "^2.5.16"
   },
   "devDependencies": {

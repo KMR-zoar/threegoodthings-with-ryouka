@@ -3,6 +3,10 @@
 1日にできたよい事をくすり屋の良佳さんと一緒に記録するためのアプリです｡
 Vue と Electron で作成しています｡
 
+インストーラーはありません｡Zipファイルを任意のフォルダに展開して`threegoodthings-with-ryouka.exe`を実行してください｡
+
+利用しなくなった場合には､展開したフォルダと`C:\Users\%ユーザー名%\AppData\Roaming\threegoodthings-with-ryouka`のフォルダを削除することでデータを削除することができます｡
+
 #### Build Setup
 
 ``` bash

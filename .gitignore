@@ -1,11 +1,10 @@
 src/renderer/assets/*.png
-backgroundimage.json
+build/icons/*
 
 .DS_Store
 dist/electron/*
 dist/web/*
 build/*
-!build/icons
 coverage
 node_modules/
 npm-debug.log
